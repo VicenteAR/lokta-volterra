@@ -1,0 +1,9 @@
+name: lokta_volterra
+
+docker_env:
+  image: lokta_volterra
+  volumes: [":/lokta_volterra"]
+
+entry_points:
+  main:
+    command: "python -m lokta_volterra"
